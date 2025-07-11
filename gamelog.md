@@ -21,3 +21,22 @@ AAuraCharacterBase::AAuraCharacterBase()
 - 2. Set the Mesh
 - 3. Weapon Socket
 - 4. Find Spear Asset
+## 2025.7.3~2025.7.10
+### 1.Animation Blueprint
+- 1. Create Aura Animation Blueprint.
+  - idle walk run state machine.
+  - get Ground Speed from Character Movement Velocty Length XY.
+- 2. Create Enemy Animation Blueprint.
+  - idle walk run state machine.
+- 3. Create Spear Goblin Animation based on Enemy Animation Blueprint.
+- 4. Create SlingshotGoblin 
+  - Based on Aura Enemy(Bp_Goblin_Slingshot)
+  - Create SlingshotGoblin Animation Blueprint
+## 2025.7.11
+### Enhanced Input
+Input Action:the way that we link this to our character.
+1. create IA_Move
+2. create IMC_AuraContext(input mapping context)
+3. based Player Controller
+   1. create AuraPlayerController.cpp
+   2. Create a Plater folder
